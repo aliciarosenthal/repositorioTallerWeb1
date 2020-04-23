@@ -21,7 +21,7 @@ public abstract class SpringTest {
 
     // Metodo para obtener una sesion de base de datos
     protected Session session() {
-        return this.sessionFactory.getCurrentSession();
+        return this.sessionFactory.getCurrfentSession();
     }
 
 }
